@@ -1,20 +1,22 @@
 export const View = props => {
   CHECK_PROPS(props, propTypes, 'Xkcd')
 
-  if (typeof props === 'string') {
+  if (!props.name) {
     props = {
       name: props,
+      full: false,
     }
   }
 
-  props.class = {
-    Xkcd: true,
-    full: props.full,
-  }
+  props.name = props.name.replace(/( |-)/g, '_')
 
-  const name = props.name.replace(/( |-)/g, '_')
-
-  return Img({ class: props.class, src: `https://imgs.xkcd.com/comics/${name}.png` })
+  return Img({
+    src: `https://imgs.xkcd.com/comics/${props.name}.png`,
+    class: {
+      Xkcd: true,
+      full: props.full,
+    },
+  })
 }
 
 export const style = {
