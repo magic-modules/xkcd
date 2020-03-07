@@ -4,5 +4,5 @@ export default {
   URL: 'magic-modules.github.io/xkcd',
   PUBLIC: 'docs',
   THEME: 'docs',
-  HOIST: ['Gdpr', 'LightSwitch'],
+  HOIST: ['LightSwitch', 'Gdpr'],
 }
