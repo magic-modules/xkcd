@@ -30,13 +30,7 @@ export const style = {
 
 export const propTypes = {
   Xkcd: [
-    {
-      name: 'class',
-      type: 'string',
-    },
-    {
-      name: 'name',
-      type: 'string',
-    },
+    { key: 'class', type: 'string' },
+    { key: 'name', type: 'string' },
   ],
 }
