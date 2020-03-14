@@ -4,7 +4,7 @@ this is the [@magic-modules](https://github.com/magic-modules) Xkcd component.
 
 It loads comic strips from [imgs.xkcd.com](https://xkcd.com).
 
-<GitBadges>magic-modules/xkcd</GitBadges>
+<GitBadges>@magic-modules/xkcd</GitBadges>
 
 ## installation
 
