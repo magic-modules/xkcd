@@ -7,7 +7,7 @@
   "description": "@magic xkcd module. embeds xkcd comics by id.",
   "main": "src/index.mjs",
   "engines": {
-    "node": ">=13.5.0"
+    "node": ">=14.2.0"
   },
   "engineStrict": true,
   "scripts": {
