@@ -19,7 +19,7 @@ then use the name of the strip to load it.
 
 ### magic words
 
-`<Xkcd>magic words&lt;Xkcd></Pre>`
+`<Xkcd>magic words&lt;Xkcd>`
 
 renders
 
